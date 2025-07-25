@@ -1,0 +1,13 @@
+{
+  "name": "telegram-proxy",
+  "version": "1.0.0",
+  "main": "send.js",
+  "scripts": {
+    "start": "node send.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "body-parser": "^1.20.0",
+    "express": "^4.18.0"
+  }
+}
