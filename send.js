@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 3000;
 
 // Твой токен и chat ID
 const TOKEN = "7958372133:AAF9v8LZKOJiYf5XkQzES3VgSU4WkVTA5hg";
-const CHAT_ID = "7841988718";
+const CHAT_ID = "-1002803266367";
 
 app.use(bodyParser.json());
 
