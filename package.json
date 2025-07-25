@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "send.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node send.js"
   },
   "dependencies": {
     "axios": "^1.6.0",
