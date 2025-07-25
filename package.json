@@ -1,5 +1,5 @@
 {
-    "name": "proxylast",
+  "name": "telegram-proxy",
   "version": "1.0.0",
   "main": "send.js",
   "scripts": {
@@ -9,3 +9,4 @@
     "express": "^4.18.0",
     "node-fetch": "^2.6.7"
   }
+}
