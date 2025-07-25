@@ -1,11 +1,14 @@
 const express = require('express');
 const fetch = require('node-fetch');
+const cors = require('cors');
+
 const app = express();
 const PORT = process.env.PORT || 3000;
 
 const BOT_TOKEN = '7958372133:AAF9v8LZKOJiYf5XkQzES3VgSU4WkVTA5hg';
-const CHAT_ID = '-1002803266367'; // ID твоего телеграм чата или группы
+const CHAT_ID = '-1002803266367';
 
+app.use(cors());  // <--- Добавлено
 app.use(express.json());
 
 app.get('/', (req, res) => {
@@ -37,6 +40,4 @@ app.post('/', async (req, res) => {
   }
 });
 
-app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
-});
+app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
